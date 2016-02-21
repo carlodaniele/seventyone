@@ -1,0 +1,147 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Seventyone\n"
+"POT-Creation-Date: 2016-02-21 12:02+0100\n"
+"PO-Revision-Date: 2016-02-21 12:07+0100\n"
+"Last-Translator: carlo <carlo.daniele@yahoo.it>\n"
+"Language-Team: \n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;__;_e;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../archive-citta.php:46 ../archive.php:34 ../content-aside.php:19
+#: ../content-audio.php:19 ../content-gallery.php:19 ../content-image.php:19
+#: ../content-link.php:19 ../content-page.php:19 ../content-quote.php:19
+#: ../content-video.php:19 ../content.php:19
+msgid "Edit"
+msgstr ""
+
+#: ../archive-citta.php:54 ../archive.php:46 ../content-aside.php:33
+#: ../content-audio.php:33 ../content-gallery.php:33 ../content-image.php:33
+#: ../content-link.php:33 ../content-page.php:40 ../content-quote.php:35
+#: ../content-video.php:33 ../content.php:40
+msgid "Tags: "
+msgstr ""
+
+#: ../archive-citta.php:55 ../archive.php:47 ../content-aside.php:34
+#: ../content-audio.php:34 ../content-gallery.php:34 ../content-image.php:34
+#: ../content-link.php:34 ../content-page.php:41 ../content-quote.php:36
+#: ../content-video.php:34 ../content.php:41
+msgid "Posted in"
+msgstr ""
+
+#: ../archive-citta.php:58 ../archive.php:50 ../content-aside.php:35
+#: ../content-audio.php:35 ../content-gallery.php:35 ../content-image.php:35
+#: ../content-link.php:35 ../content-page.php:44 ../content-quote.php:37
+#: ../content-video.php:35 ../content.php:44
+msgid "No Comments &#187;"
+msgstr ""
+
+#: ../archive-citta.php:58 ../archive.php:50 ../content-aside.php:35
+#: ../content-audio.php:35 ../content-gallery.php:35 ../content-image.php:35
+#: ../content-link.php:35 ../content-page.php:44 ../content-quote.php:37
+#: ../content-video.php:35 ../content.php:44
+msgid "1 Comment &#187;"
+msgstr ""
+
+#: ../archive-citta.php:58 ../archive.php:50 ../content-aside.php:35
+#: ../content-audio.php:35 ../content-gallery.php:35 ../content-image.php:35
+#: ../content-link.php:35 ../content-page.php:44 ../content-quote.php:37
+#: ../content-video.php:35 ../content.php:44
+msgid "% Comments &#187;"
+msgstr ""
+
+#: ../comments.php:30 ../comments.php:48
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:31 ../comments.php:49
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:32 ../comments.php:50
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:55
+msgid "Comments are closed."
+msgstr ""
+
+#: ../content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: ../content-none.php:18
+#, php-format
+msgid "Publish your first post <a href=\"%1$s\">here</a>."
+msgstr ""
+
+#: ../content-none.php:22
+msgid "Nothing found. Please try again."
+msgstr ""
+
+#: ../content-none.php:27
+msgid "Nothing found."
+msgstr ""
+
+#: ../functions.php:13
+msgid "Navigation Menu"
+msgstr ""
+
+#: ../functions.php:114
+msgid "Event details"
+msgstr ""
+
+#: ../functions.php:225
+msgid "From"
+msgstr ""
+
+#: ../functions.php:228
+msgid "To"
+msgstr ""
+
+#: ../functions.php:231
+msgid "Location"
+msgstr ""
+
+#: ../functions.php:270
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../functions.php:298
+msgid "Sidebar Widgets"
+msgstr ""
+
+#: ../functions.php:306
+msgid "Sidebar Footer"
+msgstr ""
+
+#: ../functions.php:327
+#, php-format
+msgid ""
+"<span class=\"sep\">Posted </span><a href=\"%1$s\" title=\"%2$s\" rel="
+"\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</"
+"time></a> by <span class=\"byline author vcard\">%5$s</span>"
+msgstr ""
+
+#: ../functions.php:407
+msgid "Header"
+msgstr ""
+
+#: ../functions.php:412
+msgid "Site Title Color"
+msgstr ""
+
+#: ../template_parts/template-author.php:10
+msgid "About "
+msgstr ""
+
+#: ../template_parts/template-author.php:14
+msgid "View all posts by "
+msgstr ""
