@@ -21,7 +21,7 @@ $post_types = get_post_types( $args, $output, $operator );
 	<?php
 	if( count( $post_types ) > 0 ) : 
 	?>
-		<span class="screen-reader-text"><?php echo _x( 'Search in:', 'label' ); ?></span>
+		<span class="screen-reader-text"><?php echo _x( 'Search in:', 'label', 'seventyone' ); ?></span>
 		<ul>
 		<?php foreach ( $post_types as $post_type ) { ?>
 			<li><input type="radio" name="post_type" value="<?php echo esc_attr( $post_type ); ?>" <?php checked( get_query_var( 'post_type' ), esc_attr( $post_type ) ); ?> /> <?php echo esc_attr( $post_type ); ?></li>
@@ -32,9 +32,9 @@ $post_types = get_post_types( $args, $output, $operator );
 	endif;
 	?>
 	<label>
-		<span class="screen-reader-text"><?php echo _x( 'Search for:', 'label' ); ?></span><br />
-		<input type="search" class="search-field" placeholder="<?php echo esc_attr_x( 'Search ...', 'placeholder' ); ?>" value="<?php echo get_search_query() ?>" name="s" title="<?php echo esc_attr_x( 'Search for:', 'label' ); ?>" />
+		<span class="screen-reader-text"><?php echo _x( 'Search for:', 'label', 'seventyone' ); ?></span><br />
+		<input type="search" class="search-field" placeholder="<?php echo esc_attr_x( 'Search ...', 'placeholder', 'seventyone' ); ?>" value="<?php echo get_search_query() ?>" name="s" title="<?php echo esc_attr_x( 'Search for:', 'label', 'seventyone' ); ?>" />
 	</label>
 
-	<input type="submit" class="search-submit" value="<?php echo esc_attr_x( 'Search', 'submit button' ); ?>" />
+	<input type="submit" class="search-submit" value="<?php echo esc_attr_x( 'Search', 'submit button', 'seventyone' ); ?>" />
 </form>
