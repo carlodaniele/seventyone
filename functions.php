@@ -1,8 +1,8 @@
 <?php
 /**
  * @package WordPress
- * @subpackage Seventy-One-WordPress-Theme
- * @since Seventy One 1.0
+ * @subpackage SeventyOne
+ * @since SeventyOne 1.0
  */
 
 // Theme Setup (based on twentythirteen: http://make.wordpress.org/core/tag/twentythirteen/)
@@ -103,6 +103,8 @@ function seventyone_init(){
 	register_taxonomy( "event_category", array( "event" ), $args );
 
 	add_shortcode( 'seventyone_user_info', 'seventyone_user_info' );
+
+	if ( ! isset( $content_width ) ) $content_width = 960;
 }
 add_action( 'init', 'seventyone_init' );
 
@@ -267,7 +269,7 @@ function seventyone_wp_title( $title, $sep ) {
 
 // Add a page number if necessary.
 	if ( $paged >= 2 || $page >= 2 )
-		$title = "$title $sep " . sprintf( __( 'Page %s', 'html5reset' ), max( $paged, $page ) );
+		$title = "$title $sep " . sprintf( __( 'Page %s', 'seventyone' ), max( $paged, $page ) );
 
 	return $title;
 }
