@@ -1,10 +1,14 @@
 /*
-Theme Name: Seventy One Theme
+Theme Name: SeventyOne
 Theme URI: https://github.com/carlodaniele/seventyone
-Description: A basic theme to develop upon.
+Description: A basic theme for HTML.it readers.
 Author: Carlo Daniele
-Author URI: https://www.linkedin.com/in/carlodaniele
+Author URI: http://carlodaniele.it/
 Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, blue, gray, pink, purple, white, yellow, dark, light, two-columns, left-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: seventyone
 */
 
 /**
@@ -427,6 +431,10 @@ textarea {
 /* 5.0 - Content
 -------------------------------------------------------------------------------*/
 
+.sticky{}
+.screen-reader-text{}
+.bypostauthor{}
+
 .content-area article{
 	margin-bottom: 4.2em;
 }
@@ -796,6 +804,8 @@ blockquote p {
 	.gallery {
 		display: none;
 	}
+
+	.gallery-caption{}
 
 }
 
